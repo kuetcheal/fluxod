@@ -1,0 +1,22 @@
+.navbar{
+    background-color: green;
+}
+
+.title{
+    height: 38px;
+    width: 300px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    /* padding: 15px; */
+    margin-left: 300px;
+    margin: 0 auto;
+
+}
+
+.pagination{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
