@@ -1,5 +1,9 @@
 .navbar{
     background-color: green;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
 }
 
 .title{
@@ -16,7 +20,40 @@
 }
 
 .pagination{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 500px;
+    padding: 10px;
 }
 
+.second-nav ul.nouveaute {
+    display: flex;
+    gap: 30px;
+    color: white;
+    list-style-type: none; /* Pour supprimer les puces de la liste */
+  }
+  
+  .second-nav ul.nouveaute li a {
+    text-decoration: none; /* Pour enlever le soulignement des liens */
+    color: white; /* Pour définir la couleur du texte en blanc */
+  }
+  .mirac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+  .input-containers {
+    flex: 1; /* Pour que le champ de recherche occupe tout l'espace disponible */
+  }
+  
+  .edite-input4 {
+    width: 100%; /* Pour que le champ de recherche prenne toute la largeur disponible */
+    padding: 8px; /* Ajoutez un padding pour un meilleur espacement */
+  }
+  
+  .icon-containers {
+    display: flex;
+    align-items: center; /* Pour aligner les éléments verticalement */
+  }
+    

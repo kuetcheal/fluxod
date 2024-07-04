@@ -1,10 +1,11 @@
-// reducers.js
 import { combineReducers } from 'redux';
-import monReducer from './monReducer';
+import postReducer from './postReducer';
+import commentReducer from './commentReducer';
 
 const rootReducer = combineReducers({
-  monReducer
-  // Ajoutez d'autres reducers ici si nécessaire
+  postReducer,
+  commentReducer
 });
 
 export default rootReducer;
+
